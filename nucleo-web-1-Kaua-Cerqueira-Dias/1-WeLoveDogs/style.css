@@ -1,0 +1,220 @@
+*{
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+    font-size: 48px;
+    align-items: center;
+}
+
+button{
+    border-radius: 15px;
+    border: none;
+}
+
+/* -------------- css do header --------------- */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+span{
+    color: #7ED321;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.nav a{
+    text-decoration: none;
+    color:black;
+    margin-right: 35px;
+}
+
+.button-header{
+    background-color: rgba(126, 211, 33, 0.4);
+    padding: 9px 32px;
+    border-radius: 15px;
+    border: none;
+}
+
+.text-logo{
+    display: flex;
+    font-size: 48px;
+    text-decoration: none;
+    color: black;
+}
+
+/* -------------- css do main home --------------- */
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 60px;
+}   
+
+.container img{
+  margin: 0 30px;
+}   
+
+.text-main{
+    margin-left: 80px;
+    margin-top: -30px;
+}
+
+.button-main{
+    margin-top: 25px;
+    background-color: #7ED321;
+    padding: 13px 55px;
+    color: #1C4701;
+
+}
+
+.button-main:hover{
+    cursor: pointer;
+}
+
+/* -------------- css do main quem somos --------------- */
+
+.main-quemsomos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-quemsomos{
+    margin: 0px 270px;
+    text-align: justify;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: justified;
+
+}
+
+.title-quemsomos{
+    margin: 30px 0px 14px 0;
+}
+ 
+/* -------------- css do main blog --------------- */
+
+.main-blog {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-blog{
+    margin: 30px 0px 50px 0;
+}
+
+.post{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 179px;
+    padding-bottom: 45px;
+}
+
+.texto-post{
+    align-items: center;
+    margin-right: 177px;
+    text-align: justify;
+}
+
+.texto-post h3{
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: justified;
+    }
+
+.texto-post h2{
+    font-family: Open Sans;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding-bottom: 25px;
+}
+
+.post .texto-post{
+    justify-content: space-between;
+}
+
+
+/* -------------- css do main contato --------------- */
+
+.main-contato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.title-contato{
+    margin: 30px 0px 0px 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.form{
+    width: 556px;
+    height: 349px;
+}
+
+.form div {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+label{
+    justify-content: center;
+    margin-right: 14px;
+}
+
+.form input[type="text"], .form input[type="email"] {
+    color: #9F9F9F;   
+}
+
+.button-enviar{
+    width: 141px;
+    height: 42px;
+    border-radius: 10px;
+    background-color: #7ED321;
+    color: #1C4701;
+    border: none;
+}
+
+.button-enviar:hover{
+    cursor: pointer;
+}
+
+.caixadetexto{
+    border-radius: 7px;
+    border: 1px solid #9F9F9F;
+    background: #FFF;
+}
+
+.labelcontato{
+    margin-right: 22px;
+}
